@@ -1,0 +1,8 @@
+//npx create-react-app organo
+// para executar o react em nosso projeto
+//cd pasta para entrar na pasta criada
+//npm start para rodar o projeto em react
+
+//criamos componentes para o projeto em arquivos individuais
+//em nosso src criamos uma pasta componentes
+//e criamos na pasta public a imagens que seram estaticas sem mudanças e deixamos publica
