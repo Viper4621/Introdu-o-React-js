@@ -8,3 +8,5 @@
 //e criamos na pasta public a imagens que seram estaticas sem mudanças e deixamos publica
 
 //box-sizing: border-box; trick === tem tamanho 100% levando em consideração tudo margin padding e etc para nao vazar
+
+//proxima aula iremos utilizar manipulação de dados de input
