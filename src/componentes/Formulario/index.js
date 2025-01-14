@@ -18,10 +18,11 @@ const Formulario = () => {
   const [nome, setNome] = useState("");
   const [cargo, setCargo] = useState("");
   const [imagem, setImagem] = useState("");
+  const [time, setTime] = useState("");
 
   const aoSalvar = (evento) => {
     evento.preventDefault();
-    console.log("Formulario foi submetido =>", nome, cargo, imagem);
+    console.log("Formulario foi submetido =>", nome, cargo, imagem, time);
   };
 
   return (
@@ -51,7 +52,13 @@ const Formulario = () => {
           aoAlterado={(valor) => setImagem(valor)}
         />
         {/* depois de importado no arquivo e feita a função de props para map e criado o array dos itens usamos sintaxe abaixo */}
-        <ListaSuspensa obrigatorio={true} label="Times" itens={times} />
+        <ListaSuspensa
+          obrigatorio={true}
+          label="Times"
+          itens={times}
+          valor={time}
+          aoAlterado={(valor) => setTime(valor)}
+        />
         {/* como mudamos props.children agora nosso botao ao inves de precisar de texto que er ao props que tinhamos dado pode ter qualquer coisa dentro como imagem e etc */}
         <Botao>Criar Card</Botao>
       </form>
