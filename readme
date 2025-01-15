@@ -11,3 +11,6 @@
 
 //proxima aula iremos utilizar manipulação de dados de input
 //vamos atualizar
+
+//hooks = são os setter chamamos de hooks no react são usados para react atualizar valores e renderizar novos valores
+
